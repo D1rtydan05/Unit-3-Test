@@ -5,19 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Unit 3 Debug Code</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="debug.js"></link>
+    
+    <link href="style.css" rel="stylesheet" > <!--I dont like it backwards-->
+    <script src="debug.js" defer></script>
 </head>
 <body>
     <form>
         Output:
-        <div id="out"></div><br>
+        <div id="output"></div><br>
     </form> 
 
     <p>Test #1 should give you an output of 159<br/>
     Test #2 should give you an output of 184</p>
 
-    <button type="button" name="submit" onclick="test()">run the test #1 for errors</button>
+    <button type="button" name="submit" onclick="test1()">run the test #1 for errors</button>
     <button type="button" name="submit" onclick="test2()">run the test #2 for errors</button>
 
     <p>oh yea, and this blank page looks awful, make sure you fix that too. <br> 
